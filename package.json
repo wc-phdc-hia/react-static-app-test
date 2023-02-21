@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "BUILD_PATH='./dist/app' react-scripts build",
     "test": "react-scripts test",
     "playwright_test": "playwright test",
     "eject": "react-scripts eject"
@@ -22,9 +22,9 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 3 safari version"
     ],
     "development": [
       "last 1 chrome version",
