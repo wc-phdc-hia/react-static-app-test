@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='/build/app' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "playwright_test": "playwright test",
     "eject": "react-scripts eject"
