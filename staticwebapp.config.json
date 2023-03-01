@@ -1,14 +1,4 @@
 {
-  "routes": [
-    {
-      "route": "/api*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/hapi*",
-      "allowedRoles": ["authenticated"]
-    }
-  ],
   "navigationFallback": {
     "rewrite": "/index.html"
   },
