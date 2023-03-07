@@ -1,8 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "forwardingGateway": {
-    "allowedForwardedHosts": ["test-app.apim-test.nonprod.catchandmatch.org"]
   }
 }
